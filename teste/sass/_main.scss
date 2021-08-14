@@ -1,0 +1,1242 @@
+
+
+
+.main{
+    border: 2px solid;
+	border-radius: 6px;
+
+
+	.main__intro{
+		
+		margin-top: 18.75rem; /* 300 */
+		background-color: rgb(27, 197, 240);
+		height: 1.875rem; /* 30 */
+		
+	
+	
+		.main__intro__titulo{
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+			font-style: italic;
+			font-weight: normal;
+			font-size:  1.875rem; /* 30 */
+			text-align: center;
+			line-height: normal;
+	
+	
+		}
+	
+	}
+	
+}
+
+
+
+	
+
+@for $i from 1 to 4 {
+    .main__galeria1__div#{$i}  {
+		transform: translate(-300px,250px);
+	  
+
+			
+    }
+}
+
+	.main__galeria1__div2{
+		transform: translate(-360px,250px);	
+	}
+
+@for $i from 4 to 7 {
+    .main__galeria2__div#{$i}  {
+		transform: translate(-300px,250px);
+
+    }
+}
+
+
+@for $i from 7 to 10 {
+    .main__galeria3__div#{$i}  {
+        transform: translate(-300px,250px);
+
+    }
+}
+
+@for $i from 10 to 14 {
+    .main__galeria4__div#{$i}  {
+        transform: translate(-300px,250px);
+
+    }
+}
+
+@for $i from 13 to 16 {
+    .main__galeria5__div#{$i}  {
+		transform: translate(-300px,250px);
+
+    }
+}
+
+/* div tortas */
+
+@for $i from 1 to 4 {
+    .main__tortas__galeria1__div#{$i}  {
+		background-color: black;
+
+    }
+}
+
+@for $i from 4 to 7 {
+    .main__tortas__galeria2__div#{$i}  {
+        background-color: black;
+
+    }
+}
+
+@for $i from 7 to 10 {
+    .main__tortas__galeria3__div#{$i}  {
+        background-color: black;
+
+    }
+}
+
+@for $i from 10 to 14 {
+    .main__tortas__galeria4__div#{$i}  {
+        background-color: black;
+
+    }
+}
+
+@for $i from 13 to 16 {
+    .main__tortas__galeria5__div#{$i}  {
+        background-color: black;
+
+    }
+}
+
+/* termina div tortas */
+
+
+
+
+@for $i from 1 to 6 {
+    .main__galeria#{$i} {
+        display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		width: 100%;
+		height:18.75rem; /* 300 */
+		margin: auto;
+	    background-color: $colorfondo; 
+	    margin-bottom: 100px;
+
+    }
+
+
+}
+
+
+
+/* galeria tortas */
+
+@for $i from 1 to 6 {
+    .main__tortas__galeria#{$i} {
+        display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		width: 100%;
+		height:18.75rem; /* 300 */
+		margin: auto;
+	   background-color: $colorfondo; 
+
+    }
+
+
+}
+
+/* termina galeria tortas */
+
+
+
+/* galeria merienda */
+
+
+
+
+
+
+
+/* termnina galeria merienda */
+
+
+
+/* div merienda */
+
+@for $i from 1 to 4 {
+    .main__merienda__galeria1__div#{$i}  {
+		transform: translate(-300px,250px);
+	  
+
+			
+    }
+}
+
+	
+
+@for $i from 4 to 7 {
+    .main__merienda__galeria2__div#{$i}  {
+		transform: translate(-300px,250px);
+
+    }
+}
+
+
+@for $i from 7 to 10 {
+    .main__merienda__galeria3__div#{$i}  {
+        transform: translate(-300px,250px);
+
+    }
+}
+
+@for $i from 10 to 14 {
+    .main__merienda__galeria4__div#{$i}  {
+        transform: translate(-300px,250px);
+
+    }
+}
+
+@for $i from 13 to 16 {
+    .main__merienda__galeria5__div#{$i}  {
+		transform: translate(-300px,250px);
+
+    }
+}
+
+
+
+/* termina div mirienda */
+
+
+
+
+
+
+
+.main__galeria1__foto1{
+
+	background-image: url(../imagens/foto1.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+
+
+
+
+
+}
+
+
+.main__galeria1__foto2{
+
+	background-image: url(../imagens/foto2.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	transform: translate(-70px);
+	
+
+	
+
+	
+
+
+
+}
+
+
+.main__galeria1__foto3{
+
+	background-image: url(../imagens/foto3.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+
+
+
+
+
+}
+
+
+
+
+.main__galeria2__foto4{
+
+	background-image: url(../imagens/foto4.webp);   
+	height: 215px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+
+
+
+
+
+}
+
+
+
+.main__galeria2__foto5{
+
+	background-image: url(../imagens/foto5.webp);   
+	height: 215px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+
+
+
+
+}
+
+
+.main__galeria2__foto6{
+
+	background-image: url(../imagens/foto6.webp);   
+	height: 215px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+
+
+
+
+
+
+
+}
+
+
+
+.main__galeria3__foto7{
+
+	background-image: url(../imagens/foto7.webp);   
+	height: 215px;
+	width: 690px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+
+
+
+
+
+
+
+}
+
+
+
+.main__galeria3__foto8{
+
+	background-image: url(../imagens/foto8.webp);   
+	height: 215px;
+	width: 690px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	transform: translate(-40px);
+	
+	
+
+
+
+
+}
+
+
+
+.main__galeria3__foto9{
+
+	background-image: url(../imagens/foto9.webp);   
+	height: 215px;
+	width: 690px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	transform: translate(-40px);
+	
+	
+
+
+
+
+
+
+}
+
+
+
+.main__galeria4__foto10{
+
+	background-image: url(../imagens/foto10.webp);   
+	height: 215px;
+	width: 550px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+
+
+
+}
+
+
+.main__galeria4__foto11{
+
+	background-image: url(../imagens/foto11.webp);   
+	height: 215px;
+	width: 550px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+
+
+
+
+}
+
+
+.main__galeria4__foto12{
+
+	background-image: url(../imagens/foto12.webp);   
+	height: 215px;
+	width: 550px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+
+
+	
+
+
+
+
+}
+
+
+.main__galeria5__foto13{
+
+	background-image: url(../imagens/foto13.webp);   
+	height: 215px;
+	width: 550px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+	
+
+
+
+
+}
+
+
+.main__galeria5__foto14{
+
+	background-image: url(../imagens/foto14.webp);   
+	height: 215px;
+	width: 550px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	transform: translate(40px);
+
+
+	
+
+
+
+}
+
+
+.main__galeria5__foto15{
+
+	background-image: url(../imagens/foto15.webp);   
+	height: 215px;
+	width: 550px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	transform: translate(110px);
+
+
+
+
+
+
+}
+
+
+
+/* fotos tortas */
+
+
+.main__tortas__galeria1__foto1{
+
+	background-image: url(../imagens/foto1.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+}
+
+
+.main__tortas__galeria1__foto2{
+
+	background-image: url(../Tortasybudin/imagem/fotobanana.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+}
+
+
+.main__tortas__galeria1__foto3{
+
+	background-image: url(../imagens/foto7.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+		
+	}
+
+
+
+
+}
+
+
+
+
+.main__tortas__galeria2__foto4{
+
+	background-image: url(../Tortasybudin/imagem/budindecoco.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+		
+	}
+
+
+
+
+}
+
+
+
+.main__tortas__galeria2__foto5{
+
+	background-image: url(../Tortasybudin/imagem/budindepan.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+}
+
+
+.main__tortas__galeria2__foto6{
+
+	background-image: url(../Tortasybudin/imagem/budinoreo.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+
+}
+
+
+
+.main__tortas__galeria3__foto7{
+
+	background-image: url(../Tortasybudin/imagem/budinvanilla.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+
+}
+
+
+
+.main__tortas__galeria3__foto8{
+
+	background-image: url(../Tortasybudin/imagem/budiningles.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+
+}
+
+
+
+.main__tortas__galeria3__foto9{
+
+	background-image: url(../Tortasybudin/imagem/budindenaranja.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+
+}
+
+
+
+.main__tortas__galeria4__foto10{
+
+	background-image: url(../Tortasybudin/imagem/carrotcake.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+}
+
+
+.main__tortas__galeria4__foto11{
+
+	background-image: url(../Tortasybudin/imagem/glasedelimon.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+
+}
+
+
+.main__tortas__galeria4__foto12{
+
+	background-image: url(../Tortasybudin/imagem/glasenaranja.webp);   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+
+
+	&:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+
+	}
+
+
+
+
+}
+
+
+
+/* termina fotos tortas */
+
+.main__merienda__galeria1__foto1{
+   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+
+}
+
+
+
+.main__merienda__galeria1__foto2{
+   
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+
+}
+
+
+
+/* fotos pasta */
+
+.main__pasta__galeria1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	width: 100%;
+	height:18.75rem; /* 300 */
+	margin: auto;
+    background-color: $colorfondo; 
+	padding-bottom: 500px;
+
+		.main__pasta__galeria1__foto1{
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			 background-color: blue;
+			 	img{
+					height: 300px;
+					width: 240px;
+				 }
+		}
+
+
+		.main__pasta__galeria1__foto2{
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			background-color: blue;
+
+				img{
+					height: 300px;
+		        	width: 240px;
+				}
+					
+		}
+
+
+		.main__pasta__galeria1__foto3{
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			background-color: blue;
+
+				img{
+					height: 300px;
+			        width: 240px;
+				}
+
+		}
+
+			
+
+		p{
+			transform: translate(-250px,330px);
+		}
+
+}
+
+
+/* termina foto pasta */
+
+
+
+
+
+/* fotos merienda */
+.main__merienda__galeria1{
+
+		.main__merienda__galeria1__foto1{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+
+		.main__merienda__galeria1__foto2{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+		.main__merienda__galeria1__foto3{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+		
+	}
+
+
+		.main__merienda__galeria1__foto4{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+		.main__merienda__galeria1__foto5{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+		.main__merienda__galeria1__foto6{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+		.main__merienda__galeria1__foto7{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+		.main__merienda__galeria1__foto8{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+		.main__merienda__galeria1__foto9{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+		.main__merienda__galeria1__foto10{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+		.main__merienda__galeria1__foto11{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+		.main__merienda__galeria1__foto12{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+		.main__merienda__galeria1__foto13{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+		.main__merienda__galeria1__foto14{
+
+			height: 300px;
+			width: 240px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			
+
+		}
+
+
+
+/* termina fotos merienda */
+
+
+
+
+
+
