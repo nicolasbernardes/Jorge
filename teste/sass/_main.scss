@@ -158,16 +158,6 @@
 
 
 
-/* galeria merienda */
-
-
-
-
-
-
-
-/* termnina galeria merienda */
-
 
 
 /* div merienda */
@@ -907,33 +897,7 @@
 
 /* termina fotos tortas */
 
-.main__merienda__galeria1__foto1{
-   
-	height: 215px;
-	width: 300px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
-	justify-content: center;
-	align-items: center;
-	font-size: 1px;
 
-}
-
-
-
-.main__merienda__galeria1__foto2{
-   
-	height: 215px;
-	width: 300px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
-	justify-content: center;
-	align-items: center;
-	font-size: 1px;
-
-}
 
 
 
@@ -950,65 +914,74 @@
     background-color: $colorfondo; 
 	padding-bottom: 500px;
 
-		.main__pasta__galeria1__foto1{
-			height: 300px;
-			width: 240px;
-			background-repeat: no-repeat;
-			background-size: 100%;
-			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
-			justify-content: center;
-			align-items: center;
-			font-size: 1px;
-			 background-color: blue;
-			 	img{
-					height: 300px;
-					width: 240px;
-				 }
-		}
-
-
-		.main__pasta__galeria1__foto2{
-			height: 300px;
-			width: 240px;
-			background-repeat: no-repeat;
-			background-size: 100%;
-			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
-			justify-content: center;
-			align-items: center;
-			font-size: 1px;
-			background-color: blue;
-
-				img{
-					height: 300px;
-		        	width: 240px;
-				}
-					
-		}
-
-
-		.main__pasta__galeria1__foto3{
-			height: 300px;
-			width: 240px;
-			background-repeat: no-repeat;
-			background-size: 100%;
-			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
-			justify-content: center;
-			align-items: center;
-			font-size: 1px;
-			background-color: blue;
-
-				img{
-					height: 300px;
-			        width: 240px;
-				}
-
-		}
+		
 
 			
 
-		p{
-			transform: translate(-250px,330px);
+		div{
+			padding-top: 100px;
+			p{
+				transform: translate(100px);
+				font-size: 20px;
+			}
+
+			.main__pasta__galeria1__foto1{
+				height: 270px;
+				width: 400px;
+				background-repeat: no-repeat;
+				background-size: 100%;
+				margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+				justify-content: center;
+				align-items: center;
+				font-size: 1px;
+				background-color: blue;
+
+					img{
+						height: 270px;
+						width: 400px;
+					}
+					
+			}
+			
+		
+			.main__pasta__galeria1__foto2{
+				height: 270px;
+					width: 400px;
+				background-repeat: no-repeat;
+				background-size: 100%;
+				margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+				justify-content: center;
+				align-items: center;
+				font-size: 1px;
+				background-color: blue;
+
+					img{
+						height: 270px;
+						width: 400px;
+					}
+						
+			}
+
+
+			.main__pasta__galeria1__foto3{
+				height: 270px;
+					width: 400px;
+				background-repeat: no-repeat;
+				background-size: 100%;
+				margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+				justify-content: center;
+				align-items: center;
+				font-size: 1px;
+				background-color: blue;
+
+					img{
+					height: 270px;
+					width: 400px;
+					}
+
+			}
 		}
+				
 
 }
 
@@ -1024,14 +997,16 @@
 
 		.main__merienda__galeria1__foto1{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
+			}
 			
 
 		}
@@ -1040,14 +1015,16 @@
 
 		.main__merienda__galeria1__foto2{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
+			}
 			
 
 		}
@@ -1055,14 +1032,16 @@
 
 		.main__merienda__galeria1__foto3{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
+			}
 			
 
 		}
@@ -1070,163 +1049,185 @@
 	}
 
 
-		.main__merienda__galeria1__foto4{
+		.main__merienda__galeria2__foto4{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
+			}
 			
 
 		}
 
 
-		.main__merienda__galeria1__foto5{
+		.main__merienda__galeria2__foto5{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
+			}
 			
 
 		}
 
 
-		.main__merienda__galeria1__foto6{
+		.main__merienda__galeria2__foto6{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
+			}
 			
 
 		}
 
-		.main__merienda__galeria1__foto7{
+		.main__merienda__galeria3__foto7{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
-			
-
-		}
-
-
-		.main__merienda__galeria1__foto8{
-
-			height: 300px;
-			width: 240px;
-			background-repeat: no-repeat;
-			background-size: 100%;
-			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
-			justify-content: center;
-			align-items: center;
-			font-size: 1px;
-			
-
-		}
-
-		.main__merienda__galeria1__foto9{
-
-			height: 300px;
-			width: 240px;
-			background-repeat: no-repeat;
-			background-size: 100%;
-			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
-			justify-content: center;
-			align-items: center;
-			font-size: 1px;
+			}
 			
 
 		}
 
 
-		.main__merienda__galeria1__foto10{
+		.main__merienda__galeria3__foto8{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
+			}
+			
+
+		}
+
+		.main__merienda__galeria3__foto9{
+
+			img{
+				height: 270px;
+				width: 400px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			}
 			
 
 		}
 
 
-		.main__merienda__galeria1__foto11{
+		.main__merienda__galeria4__foto10{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
-			
-
-		}
-
-		.main__merienda__galeria1__foto12{
-
-			height: 300px;
-			width: 240px;
-			background-repeat: no-repeat;
-			background-size: 100%;
-			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
-			justify-content: center;
-			align-items: center;
-			font-size: 1px;
+			}
 			
 
 		}
 
 
-		.main__merienda__galeria1__foto13{
+		.main__merienda__galeria4__foto11{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
+			}
+			
+
+		}
+
+		.main__merienda__galeria4__foto12{
+
+				img{
+				height: 270px;
+				width: 400px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			}
 			
 
 		}
 
 
-		.main__merienda__galeria1__foto14{
+		.main__merienda__galeria5__foto13{
 
-			height: 300px;
-			width: 240px;
+			img{
+				height: 270px;
+				width: 400px;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
 			justify-content: center;
 			align-items: center;
 			font-size: 1px;
+			}
+			
+
+		}
+
+
+		.main__merienda__galeria5__foto14{
+
+			img{
+				height: 270px;
+				width: 400px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+			justify-content: center;
+			align-items: center;
+			font-size: 1px;
+			}
 			
 
 		}
@@ -1238,5 +1239,261 @@
 
 
 
+/* Desayunos */
 
+.main__desayuno__galeria1{
+
+	.main__desayuno__galeria1__foto1{
+
+		img{
+		height: 270px;
+		width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+
+	}
+
+
+
+	.main__desayuno__galeria1__foto2{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+
+	.main__desayuno__galeria1__foto3{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+	
+}
+
+
+	.main__desayuno__galeria2__foto4{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+
+	.main__desayuno__galeria2__foto5{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+
+	}
+
+
+	.main__desayuno__galeria2__foto6{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+	.main__desayuno__galeria3__foto7{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+
+	.main__desayuno__galeria3__foto8{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+	.main__desayuno__galeria3__foto9{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+
+	}
+
+
+	.main__desayuno__galeria4__foto10{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+
+	.main__desayuno__galeria4__foto11{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+	.main__desayuno__galeria4__foto12{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+
+	.main__desayuno__galeria5__foto13{
+
+			img{
+				height: 270px;
+				width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+
+	.main__desayuno__galeria5__foto14{
+
+		img{
+			height: 270px;
+			width: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+		justify-content: center;
+		align-items: center;
+		font-size: 1px;
+		}
+		
+		
+
+	}
+
+
+
+
+
+/* termina desayunos */
 
