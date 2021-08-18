@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galletitas de avena</title>
     <link rel="stylesheet" href="../css2/reset.css">
-    <link rel="stylesheet" href="../css2/style.css">
-    <link rel="stylesheet" href="../css2/grid_area.css">
+    <link rel="stylesheet" href="../sass/style.css">
+    <link rel="stylesheet" href="../css2/receitas.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 
 </head>
@@ -17,17 +18,19 @@
     <header class="header">
 
 
-        <div class="header_logo">
+        <div class="header__logo">
             <img src="../imagens/Recetas de Nat.jpg.png">
         </div>    
 
         
+        
+          
+          
          
-    
-   
-          <nav class="header_menu">
-            <ul>
-                <li><strong><a href="/teste/index.html">inicio</a></strong></li>
+
+        <nav class="header__nav">
+            <ul class="animate__animated animate__backInLeft">
+                <li><strong><a href="/index.html">inicio</a></strong></li>
                 <li><strong><a href="../HTML/tortasypudin.html">Tortas y Budines</a></strong></li>
                 <li><strong><a href="../HTML/pasta.html">Pasta</a></strong></li>   
                 <li><strong><a href="../HTML/Merienda.html">Merienda</a></strong></li>
@@ -35,22 +38,19 @@
                 <li><strong><a href="../HTML/Desayunos.html">Desayunos</a></strong></li>
             </ul>
         </nav>
-
-        <div class="hearder_background"></div>
-
     </header>
 
 
 
-     <main>
+    <main>
 
-        <section class="grid">
+        <section class="receta">
 
-            <header class="border"><img src="../imagens/GALLETITAS DE AVENA.webp" alt=""></header>
-            <div id="texto_info" class="border"> 
+            <header class="receta__border"><img class="receta__foto" src="../imagens/foto14.webp" alt=""></header>
+            <div id="receta__texto__info" class="receta__border"> 
             <ul>
-                <li class="Ingredientes">Ingredientes:</li>
-                <li class="raciones">12 raciones</li>
+                <li class="receta__rojo">Ingredientes:</li>
+                <li class="receta__rojo">12 raciones</li>
                 <li>1 y 1/2 tazas avena</li>
                 <li>1 taza harina 0000</li>
                 <li>1/2 taza azúcar</li>
@@ -66,7 +66,7 @@
             </ul>
             
             </div>
-            <div id="texto_pasos" class="border"  > 
+            <div id="receta__texto__pasos" class="receta__border"  > 
                 <ol>
                     <li>En un bowl, mezclar los ingredientes secos (avena, harina, azúcar, coco rallado, polvo de hornear y sal).
                     </li>
@@ -97,7 +97,7 @@
 
 
             </div>
-        
+        </section>
        
        
 
@@ -114,26 +114,27 @@
 
     
     <footer class="footer">
-        <section>
+        <section class="animate__animated animate__bounce">
            <ul>
-               <li class="info"><strong><a href="https://blog.cookpad.com/uy/naty-cossio-embajadora-joven-de-cookpad-uruguay/?fbclid=IwAR113I9AjUwjh-5MTovvDeRQExz9dFcJAG42hqSZCfRTjFps1usZSunNVyE" target="_blank">Información sobre mí</a></strong></li>
-           <!--   <li><strong><a href="https://cookpad.com/uy/perfil/17679351" target="_blank">Cookpad</a></strong></li> -->
+               <li class="footer__info"><strong><a href="https://blog.cookpad.com/uy/naty-cossio-embajadora-joven-de-cookpad-uruguay/?fbclid=IwAR113I9AjUwjh-5MTovvDeRQExz9dFcJAG42hqSZCfRTjFps1usZSunNVyE" target="_blank">Información sobre mí</a></strong></li>
+               
            </ul>
-           </section>
-
-
-           <a href="https://cookpad.com/uy/perfil/17679351" target="_blank"> <img src="../imagens/logo_cookpad.png" alt="Cookpad"></a>
-
-
-
-            <div class="instagram">
-                <a href="https://www.instagram.com/natrecetas/" target="blank"> <img src="../imagens/Instagram3.png" alt=""></a>
+        </section>
+   
+   
+           <a class="footer__cookpad" href="https://cookpad.com/uy/perfil/17679351" target="_blank"> <img src="../imagens/logo_cookpad.png" alt="Cookpad"></a>
+   
+   
+   
+            <div class="footer__instagram">
+                <a href="https://www.instagram.com/natrecetas/" target="blank"> <img src="../imagens/instagram3.png" alt=""></a>
             </div>
-
-
-            <div class="twitter">
+   
+   
+            <div class="footer__twitter">
                <a href="https://twitter.com/NatRecetas" target="blank"> <img src="../imagens/twitter.png" alt=""></a>
             </div>
+    </footer>
 
     
 </body>
