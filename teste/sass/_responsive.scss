@@ -1,12 +1,6 @@
 @media screen and (max-width:768px){
 
-
-    body{
-    width: 100%;
-    height: 100%;
-
-
-    }
+   
 
     .header{
         
@@ -47,13 +41,13 @@
     /* main  */
 
 
-    .main__galeria1{
+    .main__galeria1, .main__tortas__galeria1, .main__desayuno__galeria1, .main__merienda__galeria1, .main__pasta__galeria1, .main__postre__galeria1, .main__tortas__galeria1{
         display: flex;
         flex-direction: column;
         padding-bottom: 500px;
         padding-top: 610px;
 
-                .main__galeria1__foto1{
+                .main__galeria1__foto1, .main__tortas__galeria1__foto1, .main__desayuno__galeria1__foto1, .main__merienda__galeria1__foto1, .main__pasta__galeria1__foto1, .main__postre__galeria1__foto1, .main__tortas__galeria1__foto1{
                     
                     
                         img{
@@ -65,7 +59,7 @@
 
 
 
-                .main__galeria1__foto2{
+                .main__galeria1__foto2, .main__tortas__galeria1__foto2, .main__desayuno__galeria1__foto2, .main__merienda__galeria1__foto2, .main__pasta__galeria1__foto2, .main__postre__galeria1__foto2, .main__tortas__galeria1__foto2{
 
                     img{
                         width: 350px;
@@ -76,7 +70,7 @@
 
 
 
-                .main__galeria1__foto3{
+                .main__galeria1__foto3, .main__tortas__galeria1__foto3, .main__desayuno__galeria1__foto3, .main__merienda__galeria1__foto3, .main__pasta__galeria1__foto3, .main__postre__galeria1__foto3, .main__tortas__galeria1__foto3{
 
                     img{
                         width: 350px;
@@ -98,7 +92,7 @@
 
 
 
-    .main__galeria2{
+    .main__galeria2,.main__tortas__galeria2, .main__desayuno__galeria2, .main__merienda__galeria2, .main__postre__galeria2, .main__tortas__galeria2{
         display: flex;
         flex-direction: column;
         padding-bottom: 500px;
@@ -111,7 +105,7 @@
             }
 
 
-            .main__galeria2__foto4{
+            .main__galeria2__foto4, .main__tortas__galeria2__foto4, .main__desayuno__galeria2__foto4, .main__merienda__galeria2__foto4, .main__postre__galeria2__foto4, .main__tortas__galeria2__foto4{
                         
                         
                 img{
@@ -123,7 +117,7 @@
 
 
 
-        .main__galeria2__foto5{
+        .main__galeria2__foto5, .main__tortas__galeria2__foto5, .main__desayuno__galeria2__foto5, .main__merienda__galeria2__foto5, .main__tortas__galeria2__foto5{
 
             img{
                 width: 350px;
@@ -134,7 +128,7 @@
 
 
 
-        .main__galeria2__foto6{
+        .main__galeria2__foto6, .main__tortas__galeria2__foto6, .main__desayuno__galeria2__foto6, .main__merienda__galeria2__foto6, .main__tortas__galeria2__foto6{
 
             img{
                 width: 350px;
@@ -158,7 +152,7 @@
 
 
 
-    .main__galeria3{
+    .main__galeria3, .main__tortas__galeria3, .main__desayuno__galeria3, .main__merienda__galeria3, .main__tortas__galeria3s{
 
         display: flex;
         flex-direction: column;
@@ -173,7 +167,7 @@
 
 
 
-                .main__galeria3__foto7{
+                .main__galeria3__foto7, .main__tortas__galeria3__foto7, .main__desayuno__galeria3__foto7, .main__merienda__galeria3__foto7, .main__tortas__galeria3__foto7{
 
                     img{
                         width: 350px;
@@ -187,7 +181,7 @@
 
 
 
-                .main__galeria3__foto8{
+                .main__galeria3__foto8, .main__tortas__galeria3__foto8, .main__merienda__galeria3__foto8, .main__tortas__galeria3__foto8{
 
                     img{
                         width: 350px;
@@ -198,7 +192,7 @@
 
 
 
-                .main__galeria3__foto9{
+                .main__galeria3__foto9, .main__tortas__galeria3__foto9, .main__merienda__galeria3__foto9, .main__tortas__galeria3__foto9{
 
                     img{
                         width: 350px;
@@ -220,7 +214,7 @@
 
 
 
-    .main__galeria4{
+    .main__galeria4, .main__tortas__galeria4, .main__merienda__galeria4, .main__tortas__galeria4{
 
         display: flex;
         flex-direction: column;
@@ -233,7 +227,7 @@
             }
 
 
-        .main__galeria4__foto10{
+        .main__galeria4__foto10, .main__tortas__galeria4__foto10, .main__merienda__galeria4__foto10, .main__tortas__galeria4__foto10{
 
 
             img{
@@ -249,7 +243,7 @@
 
 
 
-        .main__galeria4__foto11{
+        .main__galeria4__foto11, .main__tortas__galeria4__foto11, .main__merienda__galeria4__foto11, .main__tortas__galeria4__foto11{
 
 
             img{
@@ -262,7 +256,7 @@
 
 
 
-        .main__galeria4__foto12{
+        .main__galeria4__foto12, .main__tortas__galeria4__foto12, .main__merienda__galeria4__foto12, .main__tortas__galeria4__foto12{
 
             img{
                 width: 350px;
@@ -276,7 +270,7 @@
 
 
 
-     .main__galeria5{
+     .main__galeria5, .main__merienda__galeria5{
 
         display: flex;
         flex-direction: column;
@@ -290,7 +284,7 @@
                 }
 
 
-        .main__galeria5__foto13{
+        .main__galeria5__foto13, .main__merienda__galeria5__foto13{
 
             img{
                 width: 350px;
@@ -302,7 +296,7 @@
 
 
 
-        .main__galeria5__foto14{
+        .main__galeria5__foto14, .main__merienda__galeria5__foto14{
 
 
             img{
@@ -379,11 +373,6 @@
 
     }
 
-    
-
-
-
-
 
 
 
@@ -394,411 +383,392 @@
 
 
 
+@media screen  and (min-width:320px) and (max-width:360px){
 
-/* tablet */
-
-
-@media screen and (max-width:1024px){
-
-    
     body{
-        width: 100%;
-        height: 100%;
-    
-    
-        }
-    
-        .header{
-            
-            padding-bottom: 300px;
-    
-                .header__logo{
-                    display: flex;
-                    justify-content: center;
-    
-                        img{
-                            padding-right: 200px;
-                        }
-                        
-                }
-    
-                .header__nav{
-                    font-size:6.5px;
-                    display: flex;
-                    padding-left: 10px;
-    
+
+        width: 500px;
+
+
+    }
+
+
+
+
+    .header{
+        
+        padding-bottom: 300px;
+
+            .header__logo{
+                display: flex;
+                justify-content: center;
+
+                    img{
+                        padding-right: 40px;
+                    }
                     
-                }
-    
-    
-    
-    
-                .header__img{
-                   margin-top:98px;
-    
-                }
+            }
+
+            .header__nav{
+                font-size:6.5px;
+                display: flex;
+                padding-left: 50px;
+
                 
-    
-    
-    
-        }
-    
-    
-        /* main  */
-    
-    
-        .main__galeria1{
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 500px;
-            padding-top: 610px;
-    
-                    .main__galeria1__foto1{
-                        
-                        
-                            img{
-                                width: 350px;
-                                transform: translate(-70px);
-                            }
-                              
-                    }
-    
-    
-    
-                    .main__galeria1__foto2{
-    
+            }
+
+
+
+
+            .header__img{
+               margin-top:110px;
+
+            }
+            
+
+
+
+    }
+
+
+    /* main  */
+
+
+    .main__galeria1{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 500px;
+        padding-top: 610px;
+
+                .main__galeria1__foto1{
+                    
+                    
                         img{
                             width: 350px;
-                            transform: translate(-70px);
+                            transform: translate(-40px);
                         }
-    
-                    }
-    
-    
-    
-                    .main__galeria1__foto3{
-    
-                        img{
-                            width: 350px;
-                            transform: translate(-70px);
-                        }
-    
-    
-                    }
-    
-    
-    
-    
-    
-    
-    
-    
-        }
-    
-    
-    
-    
-        .main__galeria2{
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 500px;
-            padding-top: 610px;
-    
-    
-                p{
-                    padding-right: 100px;
-    
+                          
                 }
-    
-    
-                .main__galeria2__foto4{
-                            
-                            
+
+
+
+                .main__galeria1__foto2{
+
                     img{
                         width: 350px;
-                        transform: translate(-70px);
+                        transform: translate(-40px);
                     }
+
+                }
+
+
+
+                .main__galeria1__foto3{
+
+                    img{
+                        width: 350px;
+                        transform: translate(-40px);
+                    }
+
+
+                }
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+    .main__galeria2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 500px;
+        padding-top: 610px;
+
+
+            p{
+                padding-right: 140px;
+
+            }
+
+
+            .main__galeria2__foto4{
+                        
+                        
+                img{
+                    width: 350px;
+                    transform: translate(-40px);
+                }
+                
+            }
+
+
+
+        .main__galeria2__foto5{
+
+            img{
+                width: 350px;
+                transform: translate(-40px);
+            }
+
+        }
+
+
+
+        .main__galeria2__foto6{
+
+            img{
+                width: 350px;
+                transform: translate(-40px);
+            }
+
+
+        }
+
+
+            
+
+
+    }
+
+
+
+
+
+
+
+
+
+    .main__galeria3{
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 500px;
+        padding-top: 610px;
+
+
+                p{
+                    padding-right: 140px;
+
+                }
+
+
+
+                .main__galeria3__foto7{
+
+                    img{
+                        width: 350px;
+                        transform: translate(-40px);
+                    }
+
                     
                 }
-    
-    
-    
-            .main__galeria2__foto5{
-    
-                img{
-                    width: 350px;
-                    transform: translate(-70px);
+
+
+
+
+
+                .main__galeria3__foto8{
+
+                    img{
+                        width: 350px;
+                        transform: translate(-40px);
+                    }
+        
                 }
-    
-            }
-    
-    
-    
-            .main__galeria2__foto6{
-    
-                img{
-                    width: 350px;
-                    transform: translate(-70px);
+
+
+
+                .main__galeria3__foto9{
+
+                    img{
+                        width: 350px;
+                        transform: translate(-40px);
+                    }
+        
+        
                 }
+
+
+
+
+
+    }
     
     
+
+
+
+
+
+    .main__galeria4{
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 500px;
+        padding-top: 610px;
+
+            p{
+                padding-right: 100px;
+
             }
-    
-    
+
+
+        .main__galeria4__foto10{
+
+
+            img{
+                width: 350px;
+                transform: translate(-40px);
+            }
+
+
+
+        }
+
+
+
+
+
+        .main__galeria4__foto11{
+
+
+            img{
+                width: 350px;
+                transform: translate(-40px);
+            }
+
+
+        }
+
+
+
+        .main__galeria4__foto12{
+
+            img{
+                width: 350px;
+                transform: translate(-40px);
+            }
                 
-    
-    
         }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        .main__galeria3{
-    
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 500px;
-            padding-top: 610px;
-    
-    
-                    p{
-                        padding-right: 100px;
-    
-                    }
-    
-    
-    
-                    .main__galeria3__foto7{
-    
-                        img{
-                            width: 350px;
-                            transform: translate(-70px);
-                        }
-    
-                        
-                    }
-    
-    
-    
-    
-    
-                    .main__galeria3__foto8{
-    
-                        img{
-                            width: 350px;
-                            transform: translate(-70px);
-                        }
-            
-                    }
-    
-    
-    
-                    .main__galeria3__foto9{
-    
-                        img{
-                            width: 350px;
-                            transform: translate(-70px);
-                        }
-            
-            
-                    }
-    
-    
-    
-    
-    
-        }
-        
-        
-    
-    
-    
-    
-    
-        .main__galeria4{
-    
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 500px;
-            padding-top: 610px;
-    
+
+
+     }
+
+
+
+     .main__galeria5{
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 600px;
+        padding-top: 610px;
+
+
                 p{
                     padding-right: 100px;
-    
+
                 }
-    
-    
-            .main__galeria4__foto10{
-    
-    
-                img{
-                    width: 350px;
-                    transform: translate(-70px);
-                }
-    
-    
-    
+
+
+        .main__galeria5__foto13{
+
+            img{
+                width: 350px;
+                transform: translate(-40px);
             }
-    
-    
-    
-    
-    
-            .main__galeria4__foto11{
-    
-    
-                img{
-                    width: 350px;
-                    transform: translate(-70px);
-                }
-    
-    
+
+        }
+
+
+
+
+        .main__galeria5__foto14{
+
+
+            img{
+                width: 350px;
+                transform: translate(-40px);
             }
-    
-    
-    
-            .main__galeria4__foto12{
-    
-                img{
-                    width: 350px;
-                    transform: translate(-70px);
-                }
-                    
+
+        }
+
+
+
+        .main__galeria5__foto15{
+
+            img{
+                width: 350px;
+                transform: translate(-40px);
             }
-    
-    
-         }
-    
-    
-    
-         .main__galeria5{
-    
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 600px;
-            padding-top: 610px;
-    
-    
-                    p{
-                        padding-right: 100px;
-    
-                    }
-    
-    
-            .main__galeria5__foto13{
-    
-                img{
-                    width: 350px;
-                    transform: translate(-70px);
-                }
-    
-            }
-    
-    
-    
-    
-            .main__galeria5__foto14{
-    
-    
-                img{
-                    width: 350px;
-                    transform: translate(-70px);
-                }
-    
-            }
-    
-    
-    
-            .main__galeria5__foto15{
-    
-                img{
-                    width: 350px;
-                    transform: translate(-70px);
-                }
-    
-    
-                
-    
+
+
             
-            }
-    
-    
+
+        
         }
-    
-    
-    
-        /* footer */
-    
-    
-    
-        .footer{
-            display: flex;
-            flex-direction: column;
-    
-    
-    
-    
-            .footer__cookpad{
-                padding-left: 10px;
-                padding-bottom: 80px;
-    
-            }
-    
-    
-    
-    
-            .footer__instagram{
-    
-                padding-left: 15px;
-    
-    
-            }
-    
-    
-    
-            .footer__twitter{
-                transform: translate(0,-140px);
-    
-            }
-    
-    
-    
-            .footer__formulario{
-    
-                transform: translate(0px,-560px);
-    
-            }
-    
-    
-    
-    
+
+
+    }
+
+
+
+    /* footer */
+
+
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+
+
+
+
+        .footer__cookpad{
+            padding-left: 10px;
+            padding-bottom: 80px;
+
         }
 
 
 
 
+        .footer__instagram{
+
+            padding-left: 15px;
+
+
+        }
+
+
+
+        .footer__twitter{
+            transform: translate(0,-140px);
+
+        }
+
+
+
+        .footer__formulario{
+
+            transform: translate(0px,-560px);
+
+        }
 
 
 
 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+    
 }
+
 
 
      
