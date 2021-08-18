@@ -1,8 +1,6 @@
 header {
-  background-color: #17ffff;
+  background-color: #00ecec;
   height: 9.3rem;
-  background-image: -webkit-gradient(linear, right top, left top, from(#32328a), color-stop(#3691bb), to(#00ecec));
-  background-image: linear-gradient(to left, #32328a, #3691bb, #00ecec);
 }
 
 header .header__logo img {
@@ -1566,6 +1564,9 @@ header .header__img {
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    padding-bottom: 500px;
+  }
   .header__logo {
     height: auto;
     width: auto;
@@ -1581,8 +1582,8 @@ header .header__img {
     margin-bottom: -35px;
   }
   .header__nav ul {
-    width: 80vh;
-    font-size: 13px;
+    font-size: 7px;
+    padding-right: 800px;
   }
 }
 
@@ -1594,21 +1595,34 @@ header .header__img {
     height: auto;
     width: auto;
   }
+  .header__logo img {
+    -webkit-transform: translate(250px);
+            transform: translate(250px);
+  }
   .header__nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding-left: 250px;
     margin-bottom: -35px;
+    padding-bottom: 100px;
   }
   .header__nav ul {
     width: 80vh;
     font-size: 13px;
   }
+  .header__nav ul li {
+    -webkit-transform: translate(-60px, 100px);
+            transform: translate(-60px, 100px);
+  }
 }
 
 /* main */
 @media screen and (max-width: 768px) {
+  main {
+    margin-top: -250px;
+    width: 94.5vh;
+  }
   main .main__galeria1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1618,18 +1632,28 @@ header .header__img {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
+    margin-bottom: -280px;
   }
   main .main__galeria1 .main__galeria1__foto1 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria1 .main__galeria1__foto1 img {
+    width: 70vh;
   }
   main .main__galeria1 .main__galeria1__foto2 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria1 .main__galeria1__foto2 img {
+    width: 70vh;
   }
   main .main__galeria1 .main__galeria1__foto3 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria1 .main__galeria1__foto3 img {
+    width: 70vh;
   }
   main .main__galeria2 {
     display: -webkit-box;
@@ -1640,18 +1664,28 @@ header .header__img {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
+    margin-bottom: -280px;
   }
   main .main__galeria2 .main__galeria2__foto4 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria2 .main__galeria2__foto4 img {
+    width: 70vh;
   }
   main .main__galeria2 .main__galeria2__foto5 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria2 .main__galeria2__foto5 img {
+    width: 70vh;
   }
   main .main__galeria2 .main__galeria2__foto6 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria2 .main__galeria2__foto6 img {
+    width: 70vh;
   }
   main .main__galeria3 {
     display: -webkit-box;
@@ -1662,18 +1696,28 @@ header .header__img {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
+    margin-bottom: -280px;
   }
   main .main__galeria3 .main__galeria3__foto7 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria3 .main__galeria3__foto7 img {
+    width: 70vh;
   }
   main .main__galeria3 .main__galeria3__foto8 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria3 .main__galeria3__foto8 img {
+    width: 70vh;
   }
   main .main__galeria3 .main__galeria3__foto9 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria3 .main__galeria3__foto9 img {
+    width: 70vh;
   }
   main .main__galeria4 {
     display: -webkit-box;
@@ -1684,18 +1728,28 @@ header .header__img {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
+    margin-bottom: -280px;
   }
   main .main__galeria4 .main__galeria4__foto10 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria4 .main__galeria4__foto10 img {
+    width: 70vh;
   }
   main .main__galeria4 .main__galeria4__foto11 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria4 .main__galeria4__foto11 img {
+    width: 70vh;
   }
   main .main__galeria4 .main__galeria4__foto12 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria4 .main__galeria4__foto12 img {
+    width: 70vh;
   }
   main .main__galeria5 {
     display: -webkit-box;
@@ -1706,18 +1760,28 @@ header .header__img {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
+    margin-bottom: -280px;
   }
   main .main__galeria5 .main__galeria5__foto13 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria5 .main__galeria5__foto13 img {
+    width: 70vh;
   }
   main .main__galeria5 .main__galeria5__foto14 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria5 .main__galeria5__foto14 img {
+    width: 70vh;
   }
   main .main__galeria5 .main__galeria5__foto15 {
-    height: 80vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
+  }
+  main .main__galeria5 .main__galeria5__foto15 img {
+    width: 70vh;
   }
 }
 
@@ -1811,6 +1875,40 @@ header .header__img {
     /* 300 */
     margin: auto;
     background-color: #17ffff;
+  }
+}
+
+/* footer */
+@media screen and (max-width: 768px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 5px;
+  }
+  .footer .footer__info {
+    padding-left: 10px;
+  }
+  .footer .footer__cookpad {
+    -webkit-transform: translate(10px, -60px);
+            transform: translate(10px, -60px);
+  }
+  .footer .footer__instagram {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .footer .footer__twitter {
+    -webkit-transform: translate(0px, -100px);
+            transform: translate(0px, -100px);
+  }
+  .footer .footer__formulario {
+    padding-left: 20px;
+    -webkit-transform: translate(0px, -70px);
+            transform: translate(0px, -70px);
   }
 }
 /*# sourceMappingURL=style.css.map */
