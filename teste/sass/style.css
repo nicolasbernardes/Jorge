@@ -1563,7 +1563,7 @@ header .header__img {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 533px) and (max-width: 768px) {
   .header {
     padding-bottom: 300px;
   }
@@ -1583,12 +1583,22 @@ header .header__img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-left: 10px;
   }
   .header .header__img {
-    margin-top: 98px;
+    margin-top: 110px;
   }
   /* main  */
+  .main {
+    border: none;
+  }
   .main__galeria1, .main__tortas__galeria1, .main__desayuno__galeria1, .main__merienda__galeria1, .main__pasta__galeria1, .main__postre__galeria1, .main__tortas__galeria1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1597,23 +1607,41 @@ header .header__img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 500px;
-    padding-top: 610px;
+    padding-top: 950px;
+  }
+  .main__galeria1 .main__galeria1__foto1, .main__galeria1 .main__tortas__galeria1__foto1, .main__galeria1 .main__desayuno__galeria1__foto1, .main__galeria1 .main__merienda__galeria1__foto1, .main__galeria1 .main__pasta__galeria1__foto1, .main__galeria1 .main__postre__galeria1__foto1, .main__galeria1 .main__tortas__galeria1__foto1, .main__tortas__galeria1 .main__galeria1__foto1, .main__tortas__galeria1 .main__tortas__galeria1__foto1, .main__tortas__galeria1 .main__desayuno__galeria1__foto1, .main__tortas__galeria1 .main__merienda__galeria1__foto1, .main__tortas__galeria1 .main__pasta__galeria1__foto1, .main__tortas__galeria1 .main__postre__galeria1__foto1, .main__tortas__galeria1 .main__tortas__galeria1__foto1, .main__desayuno__galeria1 .main__galeria1__foto1, .main__desayuno__galeria1 .main__tortas__galeria1__foto1, .main__desayuno__galeria1 .main__desayuno__galeria1__foto1, .main__desayuno__galeria1 .main__merienda__galeria1__foto1, .main__desayuno__galeria1 .main__pasta__galeria1__foto1, .main__desayuno__galeria1 .main__postre__galeria1__foto1, .main__desayuno__galeria1 .main__tortas__galeria1__foto1, .main__merienda__galeria1 .main__galeria1__foto1, .main__merienda__galeria1 .main__tortas__galeria1__foto1, .main__merienda__galeria1 .main__desayuno__galeria1__foto1, .main__merienda__galeria1 .main__merienda__galeria1__foto1, .main__merienda__galeria1 .main__pasta__galeria1__foto1, .main__merienda__galeria1 .main__postre__galeria1__foto1, .main__merienda__galeria1 .main__tortas__galeria1__foto1, .main__pasta__galeria1 .main__galeria1__foto1, .main__pasta__galeria1 .main__tortas__galeria1__foto1, .main__pasta__galeria1 .main__desayuno__galeria1__foto1, .main__pasta__galeria1 .main__merienda__galeria1__foto1, .main__pasta__galeria1 .main__pasta__galeria1__foto1, .main__pasta__galeria1 .main__postre__galeria1__foto1, .main__pasta__galeria1 .main__tortas__galeria1__foto1, .main__postre__galeria1 .main__galeria1__foto1, .main__postre__galeria1 .main__tortas__galeria1__foto1, .main__postre__galeria1 .main__desayuno__galeria1__foto1, .main__postre__galeria1 .main__merienda__galeria1__foto1, .main__postre__galeria1 .main__pasta__galeria1__foto1, .main__postre__galeria1 .main__postre__galeria1__foto1, .main__postre__galeria1 .main__tortas__galeria1__foto1, .main__tortas__galeria1 .main__galeria1__foto1, .main__tortas__galeria1 .main__tortas__galeria1__foto1, .main__tortas__galeria1 .main__desayuno__galeria1__foto1, .main__tortas__galeria1 .main__merienda__galeria1__foto1, .main__tortas__galeria1 .main__pasta__galeria1__foto1, .main__tortas__galeria1 .main__postre__galeria1__foto1, .main__tortas__galeria1 .main__tortas__galeria1__foto1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .main__galeria1 .main__galeria1__foto1 img, .main__galeria1 .main__tortas__galeria1__foto1 img, .main__galeria1 .main__desayuno__galeria1__foto1 img, .main__galeria1 .main__merienda__galeria1__foto1 img, .main__galeria1 .main__pasta__galeria1__foto1 img, .main__galeria1 .main__postre__galeria1__foto1 img, .main__galeria1 .main__tortas__galeria1__foto1 img, .main__tortas__galeria1 .main__galeria1__foto1 img, .main__tortas__galeria1 .main__tortas__galeria1__foto1 img, .main__tortas__galeria1 .main__desayuno__galeria1__foto1 img, .main__tortas__galeria1 .main__merienda__galeria1__foto1 img, .main__tortas__galeria1 .main__pasta__galeria1__foto1 img, .main__tortas__galeria1 .main__postre__galeria1__foto1 img, .main__tortas__galeria1 .main__tortas__galeria1__foto1 img, .main__desayuno__galeria1 .main__galeria1__foto1 img, .main__desayuno__galeria1 .main__tortas__galeria1__foto1 img, .main__desayuno__galeria1 .main__desayuno__galeria1__foto1 img, .main__desayuno__galeria1 .main__merienda__galeria1__foto1 img, .main__desayuno__galeria1 .main__pasta__galeria1__foto1 img, .main__desayuno__galeria1 .main__postre__galeria1__foto1 img, .main__desayuno__galeria1 .main__tortas__galeria1__foto1 img, .main__merienda__galeria1 .main__galeria1__foto1 img, .main__merienda__galeria1 .main__tortas__galeria1__foto1 img, .main__merienda__galeria1 .main__desayuno__galeria1__foto1 img, .main__merienda__galeria1 .main__merienda__galeria1__foto1 img, .main__merienda__galeria1 .main__pasta__galeria1__foto1 img, .main__merienda__galeria1 .main__postre__galeria1__foto1 img, .main__merienda__galeria1 .main__tortas__galeria1__foto1 img, .main__pasta__galeria1 .main__galeria1__foto1 img, .main__pasta__galeria1 .main__tortas__galeria1__foto1 img, .main__pasta__galeria1 .main__desayuno__galeria1__foto1 img, .main__pasta__galeria1 .main__merienda__galeria1__foto1 img, .main__pasta__galeria1 .main__pasta__galeria1__foto1 img, .main__pasta__galeria1 .main__postre__galeria1__foto1 img, .main__pasta__galeria1 .main__tortas__galeria1__foto1 img, .main__postre__galeria1 .main__galeria1__foto1 img, .main__postre__galeria1 .main__tortas__galeria1__foto1 img, .main__postre__galeria1 .main__desayuno__galeria1__foto1 img, .main__postre__galeria1 .main__merienda__galeria1__foto1 img, .main__postre__galeria1 .main__pasta__galeria1__foto1 img, .main__postre__galeria1 .main__postre__galeria1__foto1 img, .main__postre__galeria1 .main__tortas__galeria1__foto1 img, .main__tortas__galeria1 .main__galeria1__foto1 img, .main__tortas__galeria1 .main__tortas__galeria1__foto1 img, .main__tortas__galeria1 .main__desayuno__galeria1__foto1 img, .main__tortas__galeria1 .main__merienda__galeria1__foto1 img, .main__tortas__galeria1 .main__pasta__galeria1__foto1 img, .main__tortas__galeria1 .main__postre__galeria1__foto1 img, .main__tortas__galeria1 .main__tortas__galeria1__foto1 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria1 .main__galeria1__foto2 img, .main__galeria1 .main__tortas__galeria1__foto2 img, .main__galeria1 .main__desayuno__galeria1__foto2 img, .main__galeria1 .main__merienda__galeria1__foto2 img, .main__galeria1 .main__pasta__galeria1__foto2 img, .main__galeria1 .main__postre__galeria1__foto2 img, .main__galeria1 .main__tortas__galeria1__foto2 img, .main__tortas__galeria1 .main__galeria1__foto2 img, .main__tortas__galeria1 .main__tortas__galeria1__foto2 img, .main__tortas__galeria1 .main__desayuno__galeria1__foto2 img, .main__tortas__galeria1 .main__merienda__galeria1__foto2 img, .main__tortas__galeria1 .main__pasta__galeria1__foto2 img, .main__tortas__galeria1 .main__postre__galeria1__foto2 img, .main__tortas__galeria1 .main__tortas__galeria1__foto2 img, .main__desayuno__galeria1 .main__galeria1__foto2 img, .main__desayuno__galeria1 .main__tortas__galeria1__foto2 img, .main__desayuno__galeria1 .main__desayuno__galeria1__foto2 img, .main__desayuno__galeria1 .main__merienda__galeria1__foto2 img, .main__desayuno__galeria1 .main__pasta__galeria1__foto2 img, .main__desayuno__galeria1 .main__postre__galeria1__foto2 img, .main__desayuno__galeria1 .main__tortas__galeria1__foto2 img, .main__merienda__galeria1 .main__galeria1__foto2 img, .main__merienda__galeria1 .main__tortas__galeria1__foto2 img, .main__merienda__galeria1 .main__desayuno__galeria1__foto2 img, .main__merienda__galeria1 .main__merienda__galeria1__foto2 img, .main__merienda__galeria1 .main__pasta__galeria1__foto2 img, .main__merienda__galeria1 .main__postre__galeria1__foto2 img, .main__merienda__galeria1 .main__tortas__galeria1__foto2 img, .main__pasta__galeria1 .main__galeria1__foto2 img, .main__pasta__galeria1 .main__tortas__galeria1__foto2 img, .main__pasta__galeria1 .main__desayuno__galeria1__foto2 img, .main__pasta__galeria1 .main__merienda__galeria1__foto2 img, .main__pasta__galeria1 .main__pasta__galeria1__foto2 img, .main__pasta__galeria1 .main__postre__galeria1__foto2 img, .main__pasta__galeria1 .main__tortas__galeria1__foto2 img, .main__postre__galeria1 .main__galeria1__foto2 img, .main__postre__galeria1 .main__tortas__galeria1__foto2 img, .main__postre__galeria1 .main__desayuno__galeria1__foto2 img, .main__postre__galeria1 .main__merienda__galeria1__foto2 img, .main__postre__galeria1 .main__pasta__galeria1__foto2 img, .main__postre__galeria1 .main__postre__galeria1__foto2 img, .main__postre__galeria1 .main__tortas__galeria1__foto2 img, .main__tortas__galeria1 .main__galeria1__foto2 img, .main__tortas__galeria1 .main__tortas__galeria1__foto2 img, .main__tortas__galeria1 .main__desayuno__galeria1__foto2 img, .main__tortas__galeria1 .main__merienda__galeria1__foto2 img, .main__tortas__galeria1 .main__pasta__galeria1__foto2 img, .main__tortas__galeria1 .main__postre__galeria1__foto2 img, .main__tortas__galeria1 .main__tortas__galeria1__foto2 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria1 .main__galeria1__foto3 img, .main__galeria1 .main__tortas__galeria1__foto3 img, .main__galeria1 .main__desayuno__galeria1__foto3 img, .main__galeria1 .main__merienda__galeria1__foto3 img, .main__galeria1 .main__pasta__galeria1__foto3 img, .main__galeria1 .main__postre__galeria1__foto3 img, .main__galeria1 .main__tortas__galeria1__foto3 img, .main__tortas__galeria1 .main__galeria1__foto3 img, .main__tortas__galeria1 .main__tortas__galeria1__foto3 img, .main__tortas__galeria1 .main__desayuno__galeria1__foto3 img, .main__tortas__galeria1 .main__merienda__galeria1__foto3 img, .main__tortas__galeria1 .main__pasta__galeria1__foto3 img, .main__tortas__galeria1 .main__postre__galeria1__foto3 img, .main__tortas__galeria1 .main__tortas__galeria1__foto3 img, .main__desayuno__galeria1 .main__galeria1__foto3 img, .main__desayuno__galeria1 .main__tortas__galeria1__foto3 img, .main__desayuno__galeria1 .main__desayuno__galeria1__foto3 img, .main__desayuno__galeria1 .main__merienda__galeria1__foto3 img, .main__desayuno__galeria1 .main__pasta__galeria1__foto3 img, .main__desayuno__galeria1 .main__postre__galeria1__foto3 img, .main__desayuno__galeria1 .main__tortas__galeria1__foto3 img, .main__merienda__galeria1 .main__galeria1__foto3 img, .main__merienda__galeria1 .main__tortas__galeria1__foto3 img, .main__merienda__galeria1 .main__desayuno__galeria1__foto3 img, .main__merienda__galeria1 .main__merienda__galeria1__foto3 img, .main__merienda__galeria1 .main__pasta__galeria1__foto3 img, .main__merienda__galeria1 .main__postre__galeria1__foto3 img, .main__merienda__galeria1 .main__tortas__galeria1__foto3 img, .main__pasta__galeria1 .main__galeria1__foto3 img, .main__pasta__galeria1 .main__tortas__galeria1__foto3 img, .main__pasta__galeria1 .main__desayuno__galeria1__foto3 img, .main__pasta__galeria1 .main__merienda__galeria1__foto3 img, .main__pasta__galeria1 .main__pasta__galeria1__foto3 img, .main__pasta__galeria1 .main__postre__galeria1__foto3 img, .main__pasta__galeria1 .main__tortas__galeria1__foto3 img, .main__postre__galeria1 .main__galeria1__foto3 img, .main__postre__galeria1 .main__tortas__galeria1__foto3 img, .main__postre__galeria1 .main__desayuno__galeria1__foto3 img, .main__postre__galeria1 .main__merienda__galeria1__foto3 img, .main__postre__galeria1 .main__pasta__galeria1__foto3 img, .main__postre__galeria1 .main__postre__galeria1__foto3 img, .main__postre__galeria1 .main__tortas__galeria1__foto3 img, .main__tortas__galeria1 .main__galeria1__foto3 img, .main__tortas__galeria1 .main__tortas__galeria1__foto3 img, .main__tortas__galeria1 .main__desayuno__galeria1__foto3 img, .main__tortas__galeria1 .main__merienda__galeria1__foto3 img, .main__tortas__galeria1 .main__pasta__galeria1__foto3 img, .main__tortas__galeria1 .main__postre__galeria1__foto3 img, .main__tortas__galeria1 .main__tortas__galeria1__foto3 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria2, .main__tortas__galeria2, .main__desayuno__galeria2, .main__merienda__galeria2, .main__postre__galeria2, .main__tortas__galeria2 {
     display: -webkit-box;
@@ -1624,25 +1652,28 @@ header .header__img {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 500px;
-    padding-top: 610px;
+    padding-top: 1350px;
   }
   .main__galeria2 p, .main__tortas__galeria2 p, .main__desayuno__galeria2 p, .main__merienda__galeria2 p, .main__postre__galeria2 p, .main__tortas__galeria2 p {
     padding-right: 100px;
   }
   .main__galeria2 .main__galeria2__foto4 img, .main__galeria2 .main__tortas__galeria2__foto4 img, .main__galeria2 .main__desayuno__galeria2__foto4 img, .main__galeria2 .main__merienda__galeria2__foto4 img, .main__galeria2 .main__postre__galeria2__foto4 img, .main__galeria2 .main__tortas__galeria2__foto4 img, .main__tortas__galeria2 .main__galeria2__foto4 img, .main__tortas__galeria2 .main__tortas__galeria2__foto4 img, .main__tortas__galeria2 .main__desayuno__galeria2__foto4 img, .main__tortas__galeria2 .main__merienda__galeria2__foto4 img, .main__tortas__galeria2 .main__postre__galeria2__foto4 img, .main__tortas__galeria2 .main__tortas__galeria2__foto4 img, .main__desayuno__galeria2 .main__galeria2__foto4 img, .main__desayuno__galeria2 .main__tortas__galeria2__foto4 img, .main__desayuno__galeria2 .main__desayuno__galeria2__foto4 img, .main__desayuno__galeria2 .main__merienda__galeria2__foto4 img, .main__desayuno__galeria2 .main__postre__galeria2__foto4 img, .main__desayuno__galeria2 .main__tortas__galeria2__foto4 img, .main__merienda__galeria2 .main__galeria2__foto4 img, .main__merienda__galeria2 .main__tortas__galeria2__foto4 img, .main__merienda__galeria2 .main__desayuno__galeria2__foto4 img, .main__merienda__galeria2 .main__merienda__galeria2__foto4 img, .main__merienda__galeria2 .main__postre__galeria2__foto4 img, .main__merienda__galeria2 .main__tortas__galeria2__foto4 img, .main__postre__galeria2 .main__galeria2__foto4 img, .main__postre__galeria2 .main__tortas__galeria2__foto4 img, .main__postre__galeria2 .main__desayuno__galeria2__foto4 img, .main__postre__galeria2 .main__merienda__galeria2__foto4 img, .main__postre__galeria2 .main__postre__galeria2__foto4 img, .main__postre__galeria2 .main__tortas__galeria2__foto4 img, .main__tortas__galeria2 .main__galeria2__foto4 img, .main__tortas__galeria2 .main__tortas__galeria2__foto4 img, .main__tortas__galeria2 .main__desayuno__galeria2__foto4 img, .main__tortas__galeria2 .main__merienda__galeria2__foto4 img, .main__tortas__galeria2 .main__postre__galeria2__foto4 img, .main__tortas__galeria2 .main__tortas__galeria2__foto4 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria2 .main__galeria2__foto5 img, .main__galeria2 .main__tortas__galeria2__foto5 img, .main__galeria2 .main__desayuno__galeria2__foto5 img, .main__galeria2 .main__merienda__galeria2__foto5 img, .main__galeria2 .main__tortas__galeria2__foto5 img, .main__tortas__galeria2 .main__galeria2__foto5 img, .main__tortas__galeria2 .main__tortas__galeria2__foto5 img, .main__tortas__galeria2 .main__desayuno__galeria2__foto5 img, .main__tortas__galeria2 .main__merienda__galeria2__foto5 img, .main__tortas__galeria2 .main__tortas__galeria2__foto5 img, .main__desayuno__galeria2 .main__galeria2__foto5 img, .main__desayuno__galeria2 .main__tortas__galeria2__foto5 img, .main__desayuno__galeria2 .main__desayuno__galeria2__foto5 img, .main__desayuno__galeria2 .main__merienda__galeria2__foto5 img, .main__desayuno__galeria2 .main__tortas__galeria2__foto5 img, .main__merienda__galeria2 .main__galeria2__foto5 img, .main__merienda__galeria2 .main__tortas__galeria2__foto5 img, .main__merienda__galeria2 .main__desayuno__galeria2__foto5 img, .main__merienda__galeria2 .main__merienda__galeria2__foto5 img, .main__merienda__galeria2 .main__tortas__galeria2__foto5 img, .main__postre__galeria2 .main__galeria2__foto5 img, .main__postre__galeria2 .main__tortas__galeria2__foto5 img, .main__postre__galeria2 .main__desayuno__galeria2__foto5 img, .main__postre__galeria2 .main__merienda__galeria2__foto5 img, .main__postre__galeria2 .main__tortas__galeria2__foto5 img, .main__tortas__galeria2 .main__galeria2__foto5 img, .main__tortas__galeria2 .main__tortas__galeria2__foto5 img, .main__tortas__galeria2 .main__desayuno__galeria2__foto5 img, .main__tortas__galeria2 .main__merienda__galeria2__foto5 img, .main__tortas__galeria2 .main__tortas__galeria2__foto5 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria2 .main__galeria2__foto6 img, .main__galeria2 .main__tortas__galeria2__foto6 img, .main__galeria2 .main__desayuno__galeria2__foto6 img, .main__galeria2 .main__merienda__galeria2__foto6 img, .main__galeria2 .main__tortas__galeria2__foto6 img, .main__tortas__galeria2 .main__galeria2__foto6 img, .main__tortas__galeria2 .main__tortas__galeria2__foto6 img, .main__tortas__galeria2 .main__desayuno__galeria2__foto6 img, .main__tortas__galeria2 .main__merienda__galeria2__foto6 img, .main__tortas__galeria2 .main__tortas__galeria2__foto6 img, .main__desayuno__galeria2 .main__galeria2__foto6 img, .main__desayuno__galeria2 .main__tortas__galeria2__foto6 img, .main__desayuno__galeria2 .main__desayuno__galeria2__foto6 img, .main__desayuno__galeria2 .main__merienda__galeria2__foto6 img, .main__desayuno__galeria2 .main__tortas__galeria2__foto6 img, .main__merienda__galeria2 .main__galeria2__foto6 img, .main__merienda__galeria2 .main__tortas__galeria2__foto6 img, .main__merienda__galeria2 .main__desayuno__galeria2__foto6 img, .main__merienda__galeria2 .main__merienda__galeria2__foto6 img, .main__merienda__galeria2 .main__tortas__galeria2__foto6 img, .main__postre__galeria2 .main__galeria2__foto6 img, .main__postre__galeria2 .main__tortas__galeria2__foto6 img, .main__postre__galeria2 .main__desayuno__galeria2__foto6 img, .main__postre__galeria2 .main__merienda__galeria2__foto6 img, .main__postre__galeria2 .main__tortas__galeria2__foto6 img, .main__tortas__galeria2 .main__galeria2__foto6 img, .main__tortas__galeria2 .main__tortas__galeria2__foto6 img, .main__tortas__galeria2 .main__desayuno__galeria2__foto6 img, .main__tortas__galeria2 .main__merienda__galeria2__foto6 img, .main__tortas__galeria2 .main__tortas__galeria2__foto6 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria3, .main__tortas__galeria3, .main__desayuno__galeria3, .main__merienda__galeria3, .main__tortas__galeria3s {
     display: -webkit-box;
@@ -1653,25 +1684,28 @@ header .header__img {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 500px;
-    padding-top: 610px;
+    padding-top: 1350px;
   }
   .main__galeria3 p, .main__tortas__galeria3 p, .main__desayuno__galeria3 p, .main__merienda__galeria3 p, .main__tortas__galeria3s p {
     padding-right: 100px;
   }
   .main__galeria3 .main__galeria3__foto7 img, .main__galeria3 .main__tortas__galeria3__foto7 img, .main__galeria3 .main__desayuno__galeria3__foto7 img, .main__galeria3 .main__merienda__galeria3__foto7 img, .main__galeria3 .main__tortas__galeria3__foto7 img, .main__tortas__galeria3 .main__galeria3__foto7 img, .main__tortas__galeria3 .main__tortas__galeria3__foto7 img, .main__tortas__galeria3 .main__desayuno__galeria3__foto7 img, .main__tortas__galeria3 .main__merienda__galeria3__foto7 img, .main__tortas__galeria3 .main__tortas__galeria3__foto7 img, .main__desayuno__galeria3 .main__galeria3__foto7 img, .main__desayuno__galeria3 .main__tortas__galeria3__foto7 img, .main__desayuno__galeria3 .main__desayuno__galeria3__foto7 img, .main__desayuno__galeria3 .main__merienda__galeria3__foto7 img, .main__desayuno__galeria3 .main__tortas__galeria3__foto7 img, .main__merienda__galeria3 .main__galeria3__foto7 img, .main__merienda__galeria3 .main__tortas__galeria3__foto7 img, .main__merienda__galeria3 .main__desayuno__galeria3__foto7 img, .main__merienda__galeria3 .main__merienda__galeria3__foto7 img, .main__merienda__galeria3 .main__tortas__galeria3__foto7 img, .main__tortas__galeria3s .main__galeria3__foto7 img, .main__tortas__galeria3s .main__tortas__galeria3__foto7 img, .main__tortas__galeria3s .main__desayuno__galeria3__foto7 img, .main__tortas__galeria3s .main__merienda__galeria3__foto7 img, .main__tortas__galeria3s .main__tortas__galeria3__foto7 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria3 .main__galeria3__foto8 img, .main__galeria3 .main__tortas__galeria3__foto8 img, .main__galeria3 .main__merienda__galeria3__foto8 img, .main__galeria3 .main__tortas__galeria3__foto8 img, .main__tortas__galeria3 .main__galeria3__foto8 img, .main__tortas__galeria3 .main__tortas__galeria3__foto8 img, .main__tortas__galeria3 .main__merienda__galeria3__foto8 img, .main__tortas__galeria3 .main__tortas__galeria3__foto8 img, .main__desayuno__galeria3 .main__galeria3__foto8 img, .main__desayuno__galeria3 .main__tortas__galeria3__foto8 img, .main__desayuno__galeria3 .main__merienda__galeria3__foto8 img, .main__desayuno__galeria3 .main__tortas__galeria3__foto8 img, .main__merienda__galeria3 .main__galeria3__foto8 img, .main__merienda__galeria3 .main__tortas__galeria3__foto8 img, .main__merienda__galeria3 .main__merienda__galeria3__foto8 img, .main__merienda__galeria3 .main__tortas__galeria3__foto8 img, .main__tortas__galeria3s .main__galeria3__foto8 img, .main__tortas__galeria3s .main__tortas__galeria3__foto8 img, .main__tortas__galeria3s .main__merienda__galeria3__foto8 img, .main__tortas__galeria3s .main__tortas__galeria3__foto8 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria3 .main__galeria3__foto9 img, .main__galeria3 .main__tortas__galeria3__foto9 img, .main__galeria3 .main__merienda__galeria3__foto9 img, .main__galeria3 .main__tortas__galeria3__foto9 img, .main__tortas__galeria3 .main__galeria3__foto9 img, .main__tortas__galeria3 .main__tortas__galeria3__foto9 img, .main__tortas__galeria3 .main__merienda__galeria3__foto9 img, .main__tortas__galeria3 .main__tortas__galeria3__foto9 img, .main__desayuno__galeria3 .main__galeria3__foto9 img, .main__desayuno__galeria3 .main__tortas__galeria3__foto9 img, .main__desayuno__galeria3 .main__merienda__galeria3__foto9 img, .main__desayuno__galeria3 .main__tortas__galeria3__foto9 img, .main__merienda__galeria3 .main__galeria3__foto9 img, .main__merienda__galeria3 .main__tortas__galeria3__foto9 img, .main__merienda__galeria3 .main__merienda__galeria3__foto9 img, .main__merienda__galeria3 .main__tortas__galeria3__foto9 img, .main__tortas__galeria3s .main__galeria3__foto9 img, .main__tortas__galeria3s .main__tortas__galeria3__foto9 img, .main__tortas__galeria3s .main__merienda__galeria3__foto9 img, .main__tortas__galeria3s .main__tortas__galeria3__foto9 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria4, .main__tortas__galeria4, .main__merienda__galeria4, .main__tortas__galeria4 {
     display: -webkit-box;
@@ -1682,25 +1716,28 @@ header .header__img {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 500px;
-    padding-top: 610px;
+    padding-top: 1350px;
   }
   .main__galeria4 p, .main__tortas__galeria4 p, .main__merienda__galeria4 p, .main__tortas__galeria4 p {
     padding-right: 100px;
   }
   .main__galeria4 .main__galeria4__foto10 img, .main__galeria4 .main__tortas__galeria4__foto10 img, .main__galeria4 .main__merienda__galeria4__foto10 img, .main__galeria4 .main__tortas__galeria4__foto10 img, .main__tortas__galeria4 .main__galeria4__foto10 img, .main__tortas__galeria4 .main__tortas__galeria4__foto10 img, .main__tortas__galeria4 .main__merienda__galeria4__foto10 img, .main__tortas__galeria4 .main__tortas__galeria4__foto10 img, .main__merienda__galeria4 .main__galeria4__foto10 img, .main__merienda__galeria4 .main__tortas__galeria4__foto10 img, .main__merienda__galeria4 .main__merienda__galeria4__foto10 img, .main__merienda__galeria4 .main__tortas__galeria4__foto10 img, .main__tortas__galeria4 .main__galeria4__foto10 img, .main__tortas__galeria4 .main__tortas__galeria4__foto10 img, .main__tortas__galeria4 .main__merienda__galeria4__foto10 img, .main__tortas__galeria4 .main__tortas__galeria4__foto10 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria4 .main__galeria4__foto11 img, .main__galeria4 .main__tortas__galeria4__foto11 img, .main__galeria4 .main__merienda__galeria4__foto11 img, .main__galeria4 .main__tortas__galeria4__foto11 img, .main__tortas__galeria4 .main__galeria4__foto11 img, .main__tortas__galeria4 .main__tortas__galeria4__foto11 img, .main__tortas__galeria4 .main__merienda__galeria4__foto11 img, .main__tortas__galeria4 .main__tortas__galeria4__foto11 img, .main__merienda__galeria4 .main__galeria4__foto11 img, .main__merienda__galeria4 .main__tortas__galeria4__foto11 img, .main__merienda__galeria4 .main__merienda__galeria4__foto11 img, .main__merienda__galeria4 .main__tortas__galeria4__foto11 img, .main__tortas__galeria4 .main__galeria4__foto11 img, .main__tortas__galeria4 .main__tortas__galeria4__foto11 img, .main__tortas__galeria4 .main__merienda__galeria4__foto11 img, .main__tortas__galeria4 .main__tortas__galeria4__foto11 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria4 .main__galeria4__foto12 img, .main__galeria4 .main__tortas__galeria4__foto12 img, .main__galeria4 .main__merienda__galeria4__foto12 img, .main__galeria4 .main__tortas__galeria4__foto12 img, .main__tortas__galeria4 .main__galeria4__foto12 img, .main__tortas__galeria4 .main__tortas__galeria4__foto12 img, .main__tortas__galeria4 .main__merienda__galeria4__foto12 img, .main__tortas__galeria4 .main__tortas__galeria4__foto12 img, .main__merienda__galeria4 .main__galeria4__foto12 img, .main__merienda__galeria4 .main__tortas__galeria4__foto12 img, .main__merienda__galeria4 .main__merienda__galeria4__foto12 img, .main__merienda__galeria4 .main__tortas__galeria4__foto12 img, .main__tortas__galeria4 .main__galeria4__foto12 img, .main__tortas__galeria4 .main__tortas__galeria4__foto12 img, .main__tortas__galeria4 .main__merienda__galeria4__foto12 img, .main__tortas__galeria4 .main__tortas__galeria4__foto12 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria5, .main__merienda__galeria5 {
     display: -webkit-box;
@@ -1711,25 +1748,28 @@ header .header__img {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 600px;
-    padding-top: 610px;
+    padding-top: 1350px;
   }
   .main__galeria5 p, .main__merienda__galeria5 p {
     padding-right: 100px;
   }
   .main__galeria5 .main__galeria5__foto13 img, .main__galeria5 .main__merienda__galeria5__foto13 img, .main__merienda__galeria5 .main__galeria5__foto13 img, .main__merienda__galeria5 .main__merienda__galeria5__foto13 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria5 .main__galeria5__foto14 img, .main__galeria5 .main__merienda__galeria5__foto14 img, .main__merienda__galeria5 .main__galeria5__foto14 img, .main__merienda__galeria5 .main__merienda__galeria5__foto14 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   .main__galeria5 .main__galeria5__foto15 img, .main__merienda__galeria5 .main__galeria5__foto15 img {
-    width: 350px;
-    -webkit-transform: translate(-70px);
-            transform: translate(-70px);
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-80px);
+            transform: translate(-80px);
   }
   /* footer */
   .footer {
@@ -1740,21 +1780,77 @@ header .header__img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-top: 500px;
   }
   .footer .footer__cookpad {
     padding-left: 10px;
-    padding-bottom: 80px;
+    padding-bottom: 150px;
   }
   .footer .footer__instagram {
     padding-left: 15px;
+    -webkit-transform: translate(0px, -98px);
+            transform: translate(0px, -98px);
   }
   .footer .footer__twitter {
     -webkit-transform: translate(0, -140px);
             transform: translate(0, -140px);
+    -webkit-transform: translate(0px, -140px);
+            transform: translate(0px, -140px);
   }
   .footer .footer__formulario {
-    -webkit-transform: translate(0px, -560px);
-            transform: translate(0px, -560px);
+    -webkit-transform: translate(0px, -98px);
+            transform: translate(0px, -98px);
+  }
+  /* links recetas */
+  .logo__responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nav__responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ajuda {
+    width: 100%;
+  }
+  .receta {
+    background-color: #34c417;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 1000px;
+    width: 100%;
+  }
+  .receta ul {
+    margin-top: 30%;
+  }
+  .receta img {
+    width: 100vw;
+    height: auto;
+  }
+  .receta #receta__texto__info {
+    -webkit-transform: translate(-470px, 390px);
+            transform: translate(-470px, 390px);
+    width: 87vw;
+  }
+  .receta #receta__texto__pasos {
+    background-color: gold;
+    -webkit-transform: translate(-172%, 1350px);
+            transform: translate(-172%, 1350px);
+    width: 87vw;
+    max-width: 87vw;
   }
 }
 
@@ -1953,6 +2049,10 @@ header .header__img {
   .footer .footer__formulario {
     -webkit-transform: translate(0px, -560px);
             transform: translate(0px, -560px);
+  }
+  /* recetas */
+  .receta {
+    background-color: blueviolet;
   }
 }
 /*# sourceMappingURL=style.css.map */

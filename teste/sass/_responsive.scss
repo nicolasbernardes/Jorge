@@ -1,4 +1,9 @@
-@media screen and (max-width:768px){
+@media screen and (min-width:533px) and (max-width:768px){
+
+  
+
+
+
 
    
 
@@ -19,6 +24,8 @@
             .header__nav{
                 font-size:6.5px;
                 display: flex;
+                flex-direction: row;
+                justify-content: center;
                 padding-left: 10px;
 
                 
@@ -28,7 +35,7 @@
 
 
             .header__img{
-               margin-top:98px;
+               margin-top:110px;
 
             }
             
@@ -41,18 +48,27 @@
     /* main  */
 
 
+    .main{
+        border: none;
+
+    }
+
     .main__galeria1, .main__tortas__galeria1, .main__desayuno__galeria1, .main__merienda__galeria1, .main__pasta__galeria1, .main__postre__galeria1, .main__tortas__galeria1{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         padding-bottom: 500px;
-        padding-top: 610px;
+        padding-top: 950px;
 
                 .main__galeria1__foto1, .main__tortas__galeria1__foto1, .main__desayuno__galeria1__foto1, .main__merienda__galeria1__foto1, .main__pasta__galeria1__foto1, .main__postre__galeria1__foto1, .main__tortas__galeria1__foto1{
-                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                     
                         img{
-                            width: 350px;
-                            transform: translate(-70px);
+                            width: 100%;
+                            height: auto;
+                            transform: translate(-80px);
                         }
                           
                 }
@@ -62,8 +78,9 @@
                 .main__galeria1__foto2, .main__tortas__galeria1__foto2, .main__desayuno__galeria1__foto2, .main__merienda__galeria1__foto2, .main__pasta__galeria1__foto2, .main__postre__galeria1__foto2, .main__tortas__galeria1__foto2{
 
                     img{
-                        width: 350px;
-                        transform: translate(-70px);
+                            width: 100%;
+                            height: auto;
+                            transform: translate(-80px);
                     }
 
                 }
@@ -73,8 +90,9 @@
                 .main__galeria1__foto3, .main__tortas__galeria1__foto3, .main__desayuno__galeria1__foto3, .main__merienda__galeria1__foto3, .main__pasta__galeria1__foto3, .main__postre__galeria1__foto3, .main__tortas__galeria1__foto3{
 
                     img{
-                        width: 350px;
-                        transform: translate(-70px);
+                            width: 100%;
+                            height: auto;
+                            transform: translate(-80px);
                     }
 
 
@@ -96,7 +114,7 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 500px;
-        padding-top: 610px;
+        padding-top: 1350px;
 
 
             p{
@@ -109,8 +127,9 @@
                         
                         
                 img{
-                    width: 350px;
-                    transform: translate(-70px);
+                    width: 100%;
+                    height: auto;
+                    transform: translate(-80px);
                 }
                 
             }
@@ -120,8 +139,9 @@
         .main__galeria2__foto5, .main__tortas__galeria2__foto5, .main__desayuno__galeria2__foto5, .main__merienda__galeria2__foto5, .main__tortas__galeria2__foto5{
 
             img{
-                width: 350px;
-                transform: translate(-70px);
+                width: 100%;
+                height: auto;
+                transform: translate(-80px);
             }
 
         }
@@ -131,8 +151,9 @@
         .main__galeria2__foto6, .main__tortas__galeria2__foto6, .main__desayuno__galeria2__foto6, .main__merienda__galeria2__foto6, .main__tortas__galeria2__foto6{
 
             img{
-                width: 350px;
-                transform: translate(-70px);
+                width: 100%;
+                height: auto;
+                transform: translate(-80px);
             }
 
 
@@ -157,7 +178,7 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 500px;
-        padding-top: 610px;
+        padding-top: 1350px;
 
 
                 p{
@@ -170,8 +191,9 @@
                 .main__galeria3__foto7, .main__tortas__galeria3__foto7, .main__desayuno__galeria3__foto7, .main__merienda__galeria3__foto7, .main__tortas__galeria3__foto7{
 
                     img{
-                        width: 350px;
-                        transform: translate(-70px);
+                        width: 100%;
+                        height: auto;
+                        transform: translate(-80px);
                     }
 
                     
@@ -184,8 +206,9 @@
                 .main__galeria3__foto8, .main__tortas__galeria3__foto8, .main__merienda__galeria3__foto8, .main__tortas__galeria3__foto8{
 
                     img{
-                        width: 350px;
-                        transform: translate(-70px);
+                        width: 100%;
+                        height: auto;
+                        transform: translate(-80px);
                     }
         
                 }
@@ -195,8 +218,9 @@
                 .main__galeria3__foto9, .main__tortas__galeria3__foto9, .main__merienda__galeria3__foto9, .main__tortas__galeria3__foto9{
 
                     img{
-                        width: 350px;
-                        transform: translate(-70px);
+                        width: 100%;
+                        height: auto;
+                        transform: translate(-80px);
                     }
         
         
@@ -219,7 +243,7 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 500px;
-        padding-top: 610px;
+        padding-top: 1350px;
 
             p{
                 padding-right: 100px;
@@ -231,8 +255,9 @@
 
 
             img{
-                width: 350px;
-                transform: translate(-70px);
+                width: 100%;
+                height: auto;
+                transform: translate(-80px);
             }
 
 
@@ -247,8 +272,9 @@
 
 
             img{
-                width: 350px;
-                transform: translate(-70px);
+                width: 100%;
+                height: auto;
+                transform: translate(-80px);
             }
 
 
@@ -259,8 +285,9 @@
         .main__galeria4__foto12, .main__tortas__galeria4__foto12, .main__merienda__galeria4__foto12, .main__tortas__galeria4__foto12{
 
             img{
-                width: 350px;
-                transform: translate(-70px);
+                width: 100%;
+                height: auto;
+                transform: translate(-80px);
             }
                 
         }
@@ -275,7 +302,7 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 600px;
-        padding-top: 610px;
+        padding-top: 1350px;
 
 
                 p{
@@ -287,8 +314,10 @@
         .main__galeria5__foto13, .main__merienda__galeria5__foto13{
 
             img{
-                width: 350px;
-                transform: translate(-70px);
+                
+                 width: 100%;
+                 height: auto;
+                 transform: translate(-80px);
             }
 
         }
@@ -300,8 +329,9 @@
 
 
             img{
-                width: 350px;
-                transform: translate(-70px);
+                 width: 100%;
+                 height: auto;
+                 transform: translate(-80px);
             }
 
         }
@@ -311,8 +341,9 @@
         .main__galeria5__foto15{
 
             img{
-                width: 350px;
-                transform: translate(-70px);
+                width: 100%;
+                height: auto;
+                transform: translate(-80px);
             }
 
 
@@ -333,13 +364,14 @@
     .footer{
         display: flex;
         flex-direction: column;
+        padding-top: 500px;
 
 
 
 
         .footer__cookpad{
             padding-left: 10px;
-            padding-bottom: 80px;
+            padding-bottom: 150px;
 
         }
 
@@ -349,6 +381,7 @@
         .footer__instagram{
 
             padding-left: 15px;
+            transform: translate(0px,-98px);
 
 
         }
@@ -357,6 +390,7 @@
 
         .footer__twitter{
             transform: translate(0,-140px);
+            transform: translate(0px,-140px);
 
         }
 
@@ -364,7 +398,7 @@
 
         .footer__formulario{
 
-            transform: translate(0px,-560px);
+            transform: translate(0px,-98px);
 
         }
 
@@ -375,8 +409,96 @@
 
 
 
+    /* links recetas */
+
+    .logo__responsive{
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+    .nav__responsive{
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+
+    .ajuda{
+
+        width: 100%;
+
+    }
+
+    .receta{
+        
+        background-color: rgb(52, 196, 23);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1000px;
+        width: 100%;
+
+            
+                ul{
+                    margin-top: 30%;
+
+                }
+
+
+                img{
+                    
+                    width:100vw;
+                    height: auto;
+                    
+                    
+
+                }
+
+
+                #receta__texto__info{
+                   
+                    
+                    transform: translate(-470px, 390px);
+                    width:87vw;
+
+                }
+
+
+
+
+
+                #receta__texto__pasos{
+                  
+
+                    background-color: gold;
+                    transform: translate(-172%, 1350px);
+                    width:87vw;
+                    max-width: 87vw;
+                    
+                       
+
+                }
+
+
+               
+        
+    }
+
+
 
 }
+
+
+
+
+
+
+
 
 
 
@@ -765,6 +887,32 @@
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* recetas */
+
+
+    .receta{
+        
+        background-color: blueviolet;
+    }
+
+
+
+
+
+
+
 
     
 }
