@@ -418,19 +418,20 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding-bottom: 500px;
+        padding-bottom: 350px;
         padding-top: 100px;
         width: 50%;
+        padding-left: 45%;
                         .postre__durazno{
-                            transform: translate(-40px);
+                            transform: translate(10px);
                         }
 
                         .postre__banana{
-                            transform: translate(-40px);
+                            transform: translate(10px);
                         }
 
                         .postre__ensalada{
-                            transform: translate(-40px);
+                            transform: translate(10px);
                         }
 
                        
@@ -448,7 +449,7 @@
                 .main__postre__galeria1__foto2{
                     img{
                         width: 400px;
-                    height: auto;
+                        height: auto;
                     }
                    
 
@@ -458,7 +459,7 @@
                 .main__postre__galeria1__foto3{
                     img{
                         width: 400px;
-                    height: auto;
+                        height: auto;
                     }
                    
 
@@ -489,7 +490,7 @@
 
 
                     .postre__crema{
-                        transform: translate(-5px); 
+                        transform: translate(-120px); 
                         
                     }
     
@@ -1092,19 +1093,20 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding-bottom: 500px;
+        padding-bottom: 350px;
         padding-top: 100px;
         width: 50%;
+        padding-left: 45%;
                         .postre__durazno{
-                            transform: translate(-40px);
+                            transform: translate(10px);
                         }
 
                         .postre__banana{
-                            transform: translate(-40px);
+                            transform: translate(10px);
                         }
 
                         .postre__ensalada{
-                            transform: translate(-40px);
+                            transform: translate(10px);
                         }
 
                        
@@ -1122,7 +1124,7 @@
                 .main__postre__galeria1__foto2{
                     img{
                         width: 400px;
-                    height: auto;
+                        height: auto;
                     }
                    
 
@@ -1132,7 +1134,7 @@
                 .main__postre__galeria1__foto3{
                     img{
                         width: 400px;
-                    height: auto;
+                        height: auto;
                     }
                    
 
@@ -1163,7 +1165,7 @@
 
 
                     .postre__crema{
-                        transform: translate(-5px); 
+                        transform: translate(-120px); 
                         
                     }
     
@@ -1765,19 +1767,20 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 500px;
+    padding-bottom: 350px;
     padding-top: 100px;
     width: 50%;
+    padding-left: 45%;
                     .postre__durazno{
-                        transform: translate(-40px);
+                        transform: translate(10px);
                     }
 
                     .postre__banana{
-                        transform: translate(-40px);
+                        transform: translate(10px);
                     }
 
                     .postre__ensalada{
-                        transform: translate(-40px);
+                        transform: translate(10px);
                     }
 
                    
@@ -1795,7 +1798,7 @@
             .main__postre__galeria1__foto2{
                 img{
                     width: 400px;
-                height: auto;
+                    height: auto;
                 }
                
 
@@ -1805,7 +1808,7 @@
             .main__postre__galeria1__foto3{
                 img{
                     width: 400px;
-                height: auto;
+                    height: auto;
                 }
                
 
@@ -1836,7 +1839,7 @@
 
 
                 .postre__crema{
-                    transform: translate(-5px); 
+                    transform: translate(-120px); 
                     
                 }
 
@@ -1933,13 +1936,6 @@
 
 
 
-.ajuda{
-
-    width: 100%;
-    
-
-}
-
 .receta{
     
     background-color: rgb(139, 12, 243);
@@ -1951,7 +1947,7 @@
 
         
             ul{
-                margin-top: 30%;
+                margin-top: 40%;
 
             }
 
@@ -1981,7 +1977,8 @@
             #receta__texto__pasos{
                 display: flex;
                 flex-direction: column;
-
+                margin-top: 10%;
+                margin-left: 42%;
                 background-color: rgb(58, 21, 225);
                 transform: translate(-175%, 1350px);
                 width:100vw;
@@ -2007,6 +2004,7 @@
     
 }
 
+//termina todo
 
 
 }
